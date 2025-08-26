@@ -8,10 +8,8 @@
 	}
 
 	
-	function somaValor($num1, $num2){
-	
-		$resp= $num1+$num2;
-		echo("A soma de $num1 e $num2 é $resp");
+	function somaValor($num1,$num2){
+		return ($num1+$num2);
 	}
 
 
@@ -21,7 +19,12 @@
 
 	//Chamar função ou executar
 	titulo();
-	somaValor($valor1, $valor2);
+	$resposta= somaValor($valor1,$valor2);
 
+	echo("A soma de num1 e num2 é $resposta <br/>");
+
+	$somando = somaValor(30,40) + somaValor(50,60);
+
+	echo("<br/> $somando")
 
  ?>
