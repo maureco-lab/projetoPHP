@@ -20,38 +20,42 @@
 		return($num1 / $num2);
 	}
 
-	$opcao= 4;
-	$num1=5;
-	$num2=5;
+
+	echo ("1 = Soma <br/>");
+	echo ("2 = Subtrair <br/>");
+	echo ("3 = Multiplicação <br/>");
+	echo ("4 = Divisão <br/> <br/>");
+
+
+	$opcao= 3;
+	$num1=10;
+	$num2=2;
 
 
 	if ($opcao==1) {
-		echo ("Números digitados: $num1 , $num2 <br/>");
-		echo ("Calculo escolhido: soma <br/>");
-		echo ("O resultado é: ");
+		$var= "Soma";
 		$resposta = somar($num1, $num2);
-		echo ($resposta);
 
 	} elseif ($opcao==2) {
-		echo ("Números digitados: $num1 , $num2 <br/>");
-		echo ("Calculo escolhido: subtração <br/>");
-		echo ("O resultado é: ");
+		$var= "Subtração";
 		$resposta = subtrair($num1, $num2);
-		echo ($resposta); 
 	
 	} elseif ($opcao==3) {
-		echo ("Números digitados: $num1 , $num2 <br/>");
-		echo ("Calculo escolhido: mulltiplicação <br/>");
-		echo ("O resultado é: ");
+		$var= "Mulltiplicação";
 		$resposta = mulltiplicar($num1, $num2);
-		echo ($resposta); 
 	
 	} elseif ($opcao==4) {
-		echo ("Números digitados: $num1 , $num2 <br/>");
-		echo ("Calculo escolhido: divisão <br/>");
-		echo ("O resultado é: ");
+		$var= "Divisão";
 		$resposta = dividir($num1, $num2);
-		echo ($resposta); 
-	
-	} 
+		
+	}
+
+	function resultado($num1, $num2, $var, $resposta){
+		echo ("Números digitados: $num1 , $num2 <br/>");
+		echo ("Calculo escolhido: $var <br/>");
+		echo ("O resultado é: ");
+		echo ($resposta);
+	}
+
+	resultado($num1, $num2, $var, $resposta);
  ?>
