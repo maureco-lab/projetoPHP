@@ -17,7 +17,7 @@ if ($soma>20) {
 
 */
 
-$num1= 3;
+/*$num1= 3;
 
 if ($num1 % 10==0 ||$num1 % 5==0 || $num1 % 2==0  ) {
 	echo ($num1);
@@ -28,6 +28,19 @@ if ($num1 % 10==0 ||$num1 % 5==0 || $num1 % 2==0  ) {
 	echo (" Não é divisivel por 10, por 5 ou por 2 <br/>");
 }
 
+*/
+
+ $nome ="Joana";
+ $sexo ="masculino";
+ $idade =30;
+
+ if ($sexo = "feminino" && $idade<25) {
+ 	echo ("$nome está aceito(a)");
+
+ 	// code...
+ }else  {
+	echo ("$nome não está aceito(a)"); 	// code...
+ }
 
 
 
