@@ -42,7 +42,7 @@ if ($sexo = "feminino" && $idade<25) {
 	echo ("$nome não está aceito(a)"); 
 }
 
-*/
+
 
 $a= 22;
 $b= 4;
@@ -67,6 +67,16 @@ while ($var!=true) {
 	}
 
 }
+
+*/
+$cont=0;
+$somaAtF=0;
+$atM= 0;
+$atF=0;
+$idM=0;
+$idF=0;
+$sx1=("M");
+$sx2=("F");
 
 
 
