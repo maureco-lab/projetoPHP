@@ -28,21 +28,45 @@ if ($num1 % 10==0 ||$num1 % 5==0 || $num1 % 2==0  ) {
 	echo (" Não é divisivel por 10, por 5 ou por 2 <br/>");
 }
 
-*/
 
- $nome ="Joana";
- $sexo ="masculino";
- $idade =30;
 
- if ($sexo = "feminino" && $idade<25) {
+$nome ="Joana";
+$sexo ="masculino";
+$idade =30;
+
+if ($sexo = "feminino" && $idade<25) {
  	echo ("$nome está aceito(a)");
 
- 	// code...
- }else  {
-	echo ("$nome não está aceito(a)"); 	// code...
- }
+ 	
+}else  {
+	echo ("$nome não está aceito(a)"); 
+}
 
+*/
 
+$a= 22;
+$b= 4;
+$c= 88;
+$temp= 0;
+$var=0;
+
+while ($var!=true) {
+	if ($a>$b) {
+		$temp=$a;
+		$a=$b;
+		$b=$temp;
+
+	} elseif($b>$c){
+		$temp=$c;
+		$c=$b;
+		$b=$temp;
+
+	} else{
+		$var=true;
+		echo ("$a <br/> $b </br> $c");
+	}
+
+}
 
 
 
