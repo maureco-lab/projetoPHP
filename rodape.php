@@ -1,5 +1,6 @@
 <?php 
 
-echo("Eu sou o rodapé<br/>")
+echo("Eu sou o rodapé<br/>");
+echo "<hr>";
 
  ?>

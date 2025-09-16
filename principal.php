@@ -1,9 +1,9 @@
 <?php 
 
- include("cabecalho.php");
+ include_once("cabecalho.php");
 
- include("corpo.php");
+ include_once("corpo.php");
 
- include("rodape.php");
+ include_once("rodape.php");
 
  ?>
