@@ -13,9 +13,14 @@ echo ($aluno[0] . "</br>" . $aluno[1]);
 
 $nomes= array("Josúe", "Jacó", "Daniel");
 
-echo("$nomes[0] $nomes[1] $nomes[2]");
+echo("$nomes[0] $nomes[1] $nomes[2] </br>");
 
 
+$email[]= "junior@gmail.com";
+$email[]= "rapariga@yahoo.com";
+
+echo("<pre>");
+print_r ($email);
 
 
  ?>
