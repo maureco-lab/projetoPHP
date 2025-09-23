@@ -21,6 +21,12 @@ $email[]= "rapariga@yahoo.com";
 
 echo("<pre>");
 print_r ($email);
+echo("<pre>");
+var_dump($email);
 
+$acess= array("Osvaldo", 22, "lauro@gmail.com");
+
+echo("<pre>");
+var_dump($acess);
 
  ?>
