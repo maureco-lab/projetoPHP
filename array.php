@@ -41,7 +41,7 @@ foreach ($nome as $nomes) {
 	echo("<br/> $nomes");
 
 }
-	*/
+	
 
 $num= array(1,2,3,4,5);
 
@@ -60,5 +60,34 @@ foreach ($num as $valor) {
 	echo("Valor é $valor <br/>");
 	// code...
 }
+
+
+$nome["MA"]= "Maria"; 
+$nome["PE"]= "Pedro"; 
+$nome["ZE"]= "Zézé"; 
+
+echo("<pre>");
+var_dump($nome);
+
+
+
+*/
+
+$salarios= array("João" => 2000, "Maria" => 1000, "José" =>500);
+
+echo("Salário de João é " . $salarios['João'] . "<br/>");
+echo("Salário de Maria é " . $salarios['Maria'] . "<br/>");
+echo("Salário de José é " . $salarios['José'] . "<br/>");
+
+$salarios['João']= "Alto";
+$salarios['Maria']= "Médio";
+$salarios['José']= "Pequeno";
+
+echo("<br/>");
+echo("Salário de João é " . $salarios['João'] . "<br/>");
+echo("Salário de Maria é " . $salarios['Maria'] . "<br/>");
+echo("Salário de José é " . $salarios['José'] . "<br/>");
+
+
 
  ?>
