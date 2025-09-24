@@ -9,7 +9,7 @@ $aluno[3]= "Hebert";
 
 echo ($aluno[0] . "</br>" . $aluno[1]);
 
-*/
+
 
 $nomes= array("Josúe", "Jacó", "Daniel");
 
@@ -28,5 +28,28 @@ $acess= array("Osvaldo", 22, "lauro@gmail.com");
 
 echo("<pre>");
 var_dump($acess);
+
+
+
+
+$nome= array("Jõao", "Maria", "Cléber", "Richard", "Debora");
+
+echo ("Os nomes no array <br/>");
+
+foreach ($nome as $nomes) {
+
+	echo("<br/> $nomes");
+
+}
+	*/
+
+$num= array(1,2,3,4,5);
+
+foreach ($num as $valor) {
+	// code...
+	echo("Valor é $valor <br/>");
+}
+
+
 
  ?>
