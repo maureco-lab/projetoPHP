@@ -79,7 +79,7 @@ echo("<pre/>");
 print_r("Matriz R: $mrr");
 
 ====================================
-*/
+
 
 $al= array(
 	array("n" =>"João", "a" => 10),
@@ -109,5 +109,36 @@ foreach ($al as $aluno) {
 $media = $soma /10;	
 echo ("O aluno com maior notá é: $alunomaior <br/>");
 echo ("A média de nota da turma é : $media");
+
+=====================================
+*/
+
+
+$ano= array(
+	array("Mes" => "Janeiro", "N" => 1),
+	array("Mes" => "Fevereiro", "N" => 2),
+	array("Mes" => "Março", "N" => 3),
+	array("Mes" => "Abril", "N" => 4),
+	array("Mes" => "Maio", "N" => 5),
+	array("Mes" => "Junho", "N" => 6),
+	array("Mes" => "Julho", "N" => 7),
+	array("Mes" => "Agosto", "N" => 8),
+	array("Mes" => "Setembro", "N" => 9),
+	array("Mes" => "Outubro", "N" => 10),
+	array("Mes" => "Novembro", "N" => 11),
+	array("Mes" => "Dezembro", "N" => 12)
+);
+
+$mes=12;
+
+foreach ($ano as $valor) {
+	if ($mes == $valor['N']) {
+		echo $valor['Mes'];
+		// code...
+	}
+	// code...
+}
+
+
 
  ?>
