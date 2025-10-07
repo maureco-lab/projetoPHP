@@ -181,8 +181,9 @@ foreach ($pessoa as $valor) {
 }
 
 */
-$cont=0;
 
+//Listar quantos do sexo masculino
+$cont=0;
 foreach ($pessoa as $valor) {
 	if ($valor['sexo'] == "M") {
 		$cont++;
