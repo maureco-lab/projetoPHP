@@ -111,7 +111,7 @@ echo ("O aluno com maior notá é: $alunomaior <br/>");
 echo ("A média de nota da turma é : $media");
 
 =====================================
-*/
+
 
 
 $ano= array(
@@ -129,16 +129,65 @@ $ano= array(
 	array("Mes" => "Dezembro", "N" => 12)
 );
 
-$mes=12;
+$mes=1;
 
 foreach ($ano as $valor) {
 	if ($mes == $valor['N']) {
 		echo $valor['Mes'];
+		
+	}
+	
+}
+*/
+
+$pessoa= array(
+	array("nome" =>"Miro", "cidade" => "Jericuacuara", "idade" =>28 , "sexo"=> "M"),
+	array("nome" =>"Cleuza", "cidade" => "Pintopolis", "idade" =>12 , "sexo"=> "F"),
+	array("nome" =>"Braune", "cidade" => "Santos", "idade" =>39 , "sexo"=> "M"),
+	array("nome" =>"Kéké", "cidade" => "São Paulo", "idade" =>33 , "sexo"=> "M"),
+	array("nome" =>"Linóia", "cidade" => "Rio de Janeiro", "idade" =>20 , "sexo"=> "F"),
+	array("nome" =>"Mayra", "cidade" => "Grajaú", "idade" =>26 , "sexo"=> "F"),
+	array("nome" =>"Joseph", "cidade" => "Washington", "idade" =>11 , "sexo"=> "M"),
+	array("nome" =>"Juninho", "cidade" => "Prainha", "idade" =>50 , "sexo"=> "M"),
+	array("nome" =>"Jade", "cidade" => "Santos", "idade" =>12 , "sexo"=> "F"),
+	array("nome" =>"Aparecida", "cidade" => "Santos", "idade" =>18, "sexo"=> "F")
+);
+
+/*
+//Listar nome e idade
+foreach($pessoa as $valor){
+		echo $valor['nome']," ", $valor['idade'] ."<br/>";
+	// code...
+}
+
+
+//Listar nomes de quem mora em Santos
+foreach ($pessoa as $valor) {
+	if ($valor['cidade'] =="Santos") {
+		echo $valor['nome'] . " mora em Santos" . "<br/>";
 		// code...
 	}
 	// code...
 }
 
 
+//Listar pessoas com mais de 18 anos
+foreach ($pessoa as $valor) {
+	if ($valor['idade'] > 18) {
+		echo $valor['nome']. " tem mais de 18 anos <br/>";
+		// code...
+	}
+	// code...
+}
 
+*/
+$cont=0;
+
+foreach ($pessoa as $valor) {
+	if ($valor['sexo'] == "M") {
+		$cont++;
+	}
+	
+}
+echo ("$cont são do sexo Masculino");
  ?>
