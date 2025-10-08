@@ -14,15 +14,15 @@ foreach ($num as $valor) {
 
 	}else{
 		$posi++;
-	}
+	};
 
 	if ($valor % 2 ==0) {
-		$par++
+		$par++;
 
 	}else{
 		$imp++;
-	}
-}
+	};
+};
 
-echo "São $nega números negativos <br/> São "
+echo "São $nega números negativos <br/> São $posi números positivos <br/> São $par números pares <br/> São $imp números impares";
  ?>
