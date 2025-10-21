@@ -9,26 +9,37 @@
 </head>
 <body>
 
-	<h1>Cadastro de Usuários</h1>
-
-	<form action="#" method="post">
-		<label for="primeiroNome">Primeiro Nome</label>
-		<input type="text" name="primeiroNome" id="primeiroNome" placeholder="Nome" maxlength="50" required autofocus>
-		<label for="segundoNome">Segundo Nome</label>
-		<input type="text" name="segundoNome" id="segundoNome" placeholder="Sobrenome" maxlength="50" required>
-		<label for="escolhaPets" id="escolhaPets" name="escolhaPets">Escolha seu Pet</label>
-		<select>
-			<option value="nenhum" >Nenhum</option>
-			<option value="cachorro" >Cachorro</option>
-			<option value="gato" >Gato</option>
-			<option value="peixe" >Peixe</option>
-			<option value="passaro" >Pássaro</option>		
-			<option value="boi" >Boi</option>		
-			<option value="pato" >Pato</option>		
-		</select>
-		<button type="submit">Enviar</button>
-		<button type="reset">Limpar</button>
-		
+	
+	<main class="container">
+		<h1>Cadastro de Usuários</h1>
+		<form action="include/cadastrar.php" method="post">
+			<div class="md-3">
+				<label for="primeiroNome">Primeiro Nome</label>
+				<input type="text" name="primeiroNome" id="primeiroNome" placeholder="Nome" maxlength="50" required autofocus>
+			</div>
+			<div class="md-3">
+				<label for="segundoNome">Segundo Nome</label>
+				<input type="text" name="segundoNome" id="segundoNome" placeholder="Sobrenome" maxlength="50" required>
+			</div>
+			<div class="md-3">
+				<label for="escolhaPets" id="escolhaPets" name="escolhaPets">Escolha seu Pet</label>
+			</div>
+			<div class="md-3">
+				<select>
+					<option value="nenhum" >Nenhum</option>
+					<option value="cachorro" >Cachorro</option>
+					<option value="gato" >Gato</option>
+					<option value="peixe" >Peixe</option>
+					<option value="passaro" >Pássaro</option>		
+					<option value="boi" >Boi</option>		
+					<option value="pato" >Pato</option>		
+				</select>
+			</div>
+			<div class="md-3">
+				<button class="btn btn-primary" type="submit">Enviar</button>
+				<button class="btn btn-primary" type="reset">Limpar</button>
+			</div>
+		</main>	
 
 	</form>
 
@@ -41,7 +52,7 @@
 
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
 </body>
 </html>
