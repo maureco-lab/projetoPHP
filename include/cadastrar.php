@@ -1,6 +1,6 @@
 <?php 
 
-if ($_SERVER['REQUEST_METHOD'] == 'get') {
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	// code...
 	$primeiroNome= $_POST["primeiroNome"];
 	$segundoNome= $_POST["segundoNome"];
