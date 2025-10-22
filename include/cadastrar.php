@@ -1,11 +1,19 @@
 <?php 
 
-$primeiroNome= $_POST["primeiroNome"];
-$segundoNome= $_POST["segundoNome"];
-$escolhaPets= $_POST["escolhaPets"];
+if ($_SERVER['REQUEST_METHOD'] == 'get') {
+	// code...
+	$primeiroNome= $_POST["primeiroNome"];
+	$segundoNome= $_POST["segundoNome"];
+	$escolhaPets= $_POST["escolhaPets"];
 
-echo ($primeiroNome . "-" . $segundoNome . "-" . $escolhaPets);
+	echo ($primeiroNome . "-" . $segundoNome . "-" . $escolhaPets);
 
-echo '<a href="../index.php">Voltar</a>';
+	echo '<a href="../index.php">Voltar</a>';
+
+} else{
+	echo "IHHHHHHU";
+}
+
+
 
  ?>
