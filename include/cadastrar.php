@@ -1,7 +1,9 @@
 <?php 
 
 
-	echo "Cadastrado com Sycesso!";
-	echo "<a href="../projetophp/index.php">Voltar</a>";
+$primeiroNome= $_POST['$primeiroNome']
+$segundoNome= $_POST['$segundoNome']
+$escolhaPet= $_POST['$escolhaPets']
 
+echo ($primeiroNome . "-" . $segundoNome . "-" . $escolhaPet);
  ?>
