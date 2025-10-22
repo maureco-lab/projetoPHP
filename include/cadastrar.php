@@ -1,9 +1,11 @@
 <?php 
 
+$primeiroNome= $_POST["primeiroNome"];
+$segundoNome= $_POST["segundoNome"];
+$escolhaPets= $_POST["escolhaPets"];
 
-$primeiroNome= $_POST['$primeiroNome']
-$segundoNome= $_POST['$segundoNome']
-$escolhaPet= $_POST['$escolhaPets']
+echo ($primeiroNome . "-" . $segundoNome . "-" . $escolhaPets);
 
-echo ($primeiroNome . "-" . $segundoNome . "-" . $escolhaPet);
+echo '<a href="../index.php">Voltar</a>';
+
  ?>

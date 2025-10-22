@@ -22,10 +22,8 @@
 				<input type="text" name="segundoNome" id="segundoNome" placeholder="Sobrenome" maxlength="50" required>
 			</div>
 			<div class="md-3">
-				<label for="escolhaPets" id="escolhaPets" name="escolhaPets">Escolha seu Pet</label>
-			</div>
-			<div class="md-3">
-				<select>
+				<label for="escolhaPets">Escolha seu Pet</label>
+				<select id="escolhaPets" name="escolhaPets">
 					<option value="nenhum" >Nenhum</option>
 					<option value="cachorro" >Cachorro</option>
 					<option value="gato" >Gato</option>
