@@ -3,15 +3,11 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Block Sessões</title>
+	<title>Formulários Sessão</title>
 
 	<?php 
 
 		session_start();
-
-		$_SESSION['nome'] = $_POST['nome'];
-		$_SESSION['senha']= $_POST['senha'];
-
 	 ?>
 </head>
 <body>
@@ -20,8 +16,7 @@
 	<b>Data de Conexão:</b> <?php echo date("d/m/Y"); ?><br/>
 	<b>Hora da Conexão: </b> <?php echo date("H:i:s"); ?><br/>
 
-	<a href="sessoes_verifica.php">Área do Administrador</a>
-
+	<a href="sessoes_valida_formulario.php">Área do Administrador</a>
 
 </body>
 </html>
