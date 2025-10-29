@@ -7,21 +7,15 @@
 </head>
 <body>
 
-
-	<?php 
-
-
-		session_start();
-
-		$_SESSION['nome'] = "Administrador";
-
-
-		session_unset();
-
-	 ?>
-
-		<h3>Sessão de Usuario</h3>
-		Bem vindo, Sr. <?php echo $_SESSION['nome']; ?>
+	<form name="logar" method="post" action="sessoes_block.php">
+		Nome:<br>
+		<input type="text" name="nome"><br>
+		Senha:<br>
+		<input type="password" name="senha"><br>
+		<br>
+		<br>
+		<input type="submit" name="enviar" value="Enviar">
+	</form>
 
 </body>
 </html>
