@@ -11,11 +11,15 @@
  		<td>$nome!! </td>
  		</tr>
  	</table>";
+ 	echo "<br>";
  	
  } else {
  	echo "Usuario Invalido!";
- }
+ 	echo "<br>";
+ };
  
+
+
 
 
  ?>

@@ -19,6 +19,7 @@ body{
 	border-radius: 23px;
 	border: 2px black solid;
 	color: white;
+	box-shadow: 1px 1px 10px  black;
 }
 
 .container h1{
@@ -35,6 +36,7 @@ label{
 	margin-left: 1px;
 	margin-bottom: 6px;
 }
+
 
 input{
 	width: 80%;
