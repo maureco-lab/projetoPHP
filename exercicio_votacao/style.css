@@ -14,6 +14,8 @@ form{
 	width: 800px;
 	border-radius: 20px;
 	padding: 20px;
+	box-shadow: 2px 2px 15px black;
+
 
 }
 
@@ -26,12 +28,10 @@ form label{
 	font-size: 25px;
 }
 
-form input{
+.btn{
 	font-size: 20px;
 	padding: 6px;
 	margin: 10px;
+	box-shadow: 1px 1px 5px black;
 }
 
-form img{
-	width: 200px;
-}

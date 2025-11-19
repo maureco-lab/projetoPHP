@@ -27,7 +27,7 @@
 		<br>
 		<br>
 
-		<input type="submit" name="enviar">
+		<input class="btn" type="submit" name="enviar">
 
 	</form>
 
