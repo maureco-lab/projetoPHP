@@ -7,19 +7,19 @@
 </head>
 <body>
 
-	<form action="#" method="get">
+	<form action="exercicio_voto.php" method="get">
 		<h2>Qual o maior time de São Paulo? Sem clubismo (Sabendo que é o São Paulo FC)</h2>
 
-		<input type="radio" id="sao_paulo" name="time" value="sao_paulo">
+		<input type="radio" id="sao_paulo" name="voto" value="Sao Paulo">
 		<label for="sao_paulo">São Paulo</label>
 
-		<input type="radio" id="santos" name="time" value="santos">
+		<input type="radio" id="santos" name="voto" value="Santos">
 		<label for="santos">Santos</label>
 
-		<input type="radio" id="corinthians" name="time" value="corinthians">
+		<input type="radio" id="corinthians" name="voto" value="Corinthians">
 		<label for="corinthians">Corinthians</label>
 
-		<input type="radio" id="palmeiras" name="time" value="palmeiras">
+		<input type="radio" id="palmeiras" name="voto" value="Palmeiras">
 		<label for="palmeiras">Palmeiras</label>
 
 		<br>
