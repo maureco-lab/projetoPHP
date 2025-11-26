@@ -3,7 +3,7 @@
 	$host = "localhost";
 	$user= "admin";
 	$pwd= "admin";
-	$db= "bdloja";
+	$db= "bdpadaria";
 
 	 $con= mysqli_connect($host, $user, $pwd, $db);
 
@@ -11,7 +11,17 @@
 	 echo "Banco de Dados não conectado" . mysqli_connect_error();
 
 	} else {
-		echo "Banco de Dados conectado!!";
+
+		$sql= " create table tbPesssoas(codPessoa int not null auto_increment,
+		nome varchar (100),
+		email varchar (100),
+		tel char(10),
+		primary key (codPessoa))";
+
+		if(mysqli_query($con, $sql)){
+		echo "Tabela criada!!";
+	};
+
 		mysqli_close($con);
 	}
 	?>
